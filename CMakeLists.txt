@@ -12,8 +12,9 @@ add_executable(Cpp main.cpp
 #        Graph/ShorttestPath/dijkstra.cpp
         #        Graph/MST/Prim.cpp
         #        Graph/graph/adjacencyList.cpp
-#        Graph/graph/adjacencyList.h
+##        Graph/graph/adjacencyList.h
 #        Graph/graph/main.cpp
+        Graph/homework/Q1.cpp
         #        MoNiTi/Third/Q2.cpp
         #        MoNiTi/Third/Q1.cpp
         #        MoNiTi/Second/Q1.cpp

@@ -95,10 +95,10 @@ void AdjGraph::BFS(AdjGraph &G, int v) {
         }
     }
 }
-int v[MAXV];
-void AdjGraph::FindPath1(AdjGraph &G, int u, int vv, vector<int> path) {
-    v[u] = 1;
-    path.push_back(u);
+bool v[MAXV];
+vector<int> path;
+void AdjGraph::FindPath1(AdjGraph &G, int u, int vv ) {
+
     if(u == vv)
     {
         for (int i = 0; i < path.size(); ++i) {
@@ -111,15 +111,21 @@ void AdjGraph::FindPath1(AdjGraph &G, int u, int vv, vector<int> path) {
     while (p!= nullptr)
     {
         int w = p->adjvex;
-        if(!v[w])
-            FindPath1(G,w,vv,path);
+        if(!v[w]) {
+            v[w] = true;
+            path.push_back(w);
+            FindPath1(G, w, vv);
+            path.pop_back();//回退
+            v[w] = false;
+        }
         p = p->nextarc;
     }
 }
 
-void AdjGraph::FindPath(AdjGraph &G, int u, int v) {
-    vector<int>path;
-    FindPath1(G,u,v,path);
+void AdjGraph::FindPath(AdjGraph &G, int u, int vv) {
+    path.push_back(u);
+    v[u] = true;
+    FindPath1(G,u,vv);
 }
 void AdjGraph::TopSort(AdjGraph &G) {
     stack<int>st;

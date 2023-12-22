@@ -53,7 +53,7 @@ string transs(string exp) {
             }
             i--;
             postexp += d;
-            postexp += "#";
+            postexp += "#";//标识
         }
     }
 
@@ -130,8 +130,6 @@ int main() {
     getline(cin, ex);
 
     string post = transs(ex);
-
-
     int ans = 0;
     ans = cacl(post);
     cout<<ans<<endl;

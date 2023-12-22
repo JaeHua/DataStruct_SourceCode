@@ -53,7 +53,7 @@ public:
     vector<int>Degree(AdjGraph&G,int v);//有向图出度与入度ans[0]记录出度
     void DFS(AdjGraph&G,int v);
     void BFS(AdjGraph&G,int v);
-    void FindPath1(AdjGraph&G,int u,int v,vector<int>path);
+    void FindPath1(AdjGraph&G,int u,int v);
     void FindPath(AdjGraph&G,int u,int v);
     void TopSort(AdjGraph&G);//拓扑排序
 };

@@ -31,6 +31,7 @@ int main() {
     cout<<"\n";
     cout<<"0 --> 3 path :";
     graph.FindPath(graph,0,3);
+    cout<<"Topsort: ";
     graph.TopSort(graph);
     return 0;
 }

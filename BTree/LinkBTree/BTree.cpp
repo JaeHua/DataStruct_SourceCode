@@ -5,7 +5,7 @@
 #include "BTree.h"
 #include <stack>
 #include <queue>
-void BTree::CreateBTree(std::string str) {
+void BTree::CreateBTree(std::string str)  {
     stack<BTNode*>st;//�洢ջ
     BTNode*p;
     bool flag;
