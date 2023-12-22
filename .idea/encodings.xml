@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/BTree/LinkBTree/BTree.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BTree/LinkBTree/BTree.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/BTree/LinkBTree/TestBTree.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Graph/MST/Prim.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Graph/ShorttestPath/dijkstra.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Graph/ShorttestPath/floyed.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/LinearList/LabLinkList/Lab_LinkList.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/MoNiTi/Third/Q2.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/myQueue/IntegratedApplication/Textbook/Q3_4_2_1.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/myQueue/IntegratedApplication/Textbook/Q3_4_2_3.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/myQueue/LinkQueue/main.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/myStack/IntergratedQuestion/lab1_2.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/myStack/LinkStack/LinkStack.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/myStack/LinkStack/_main.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/myStack/SqStack/_main.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/myStack/_StackInSTL.cpp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/myString/PatternMatching/KMP.cpp" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,112 @@
+cmake_minimum_required(VERSION 3.26)
+project(Cpp)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(Cpp main.cpp
+#        Search/BinSearch.cpp
+        #        Search/SeqSearch/SeqSearch.cpp
+        #        Graph/graph/main.cpp
+        #        Graph/ShorttestPath/floyed.cpp
+        #        Graph/MST/Kruskal.cpp
+#        Graph/ShorttestPath/dijkstra.cpp
+        #        Graph/MST/Prim.cpp
+        #        Graph/graph/adjacencyList.cpp
+#        Graph/graph/adjacencyList.h
+#        Graph/graph/main.cpp
+        #        MoNiTi/Third/Q2.cpp
+        #        MoNiTi/Third/Q1.cpp
+        #        MoNiTi/Second/Q1.cpp
+        #        BTree/lab/graphTra.cpp
+#        BTree/lab/graph.cpp
+        #        BTree/lab/Huff.cpp
+        #        BTree/lab/ExTree.cpp
+        #        BTree/HomeWork/tree2.cpp
+#        BTree/HomeWork/tree1.cpp
+        #        BTree/Practice/BTree.cpp
+        #        Graph/LJJZ/LJJZ.cpp
+        #        BTree/DisjointSet/disjointSet.cpp
+        #        BTree/HuffmanTree/HTree.cpp
+        #        BTree/HomeWork/Q1.cpp
+#        BTree/HomeWork/test.cpp
+        #        "myString/IntegratedApplication/Homework/ HDU2594.cpp"
+#        myString/IntegratedApplication/Homework/JuZhengHangLiePipei.cpp
+#        LinearList/LabLinkList/Lab_LinkList.cpp
+#        BTree/LinkBTree/TestBTree.cpp
+        #        Recursion/ApplicationQuestion/FindPosOfCh.cpp
+        #        Recursion/ApplicationQuestion/ZouLouTi.cpp
+        #        Recursion/AlgorithmDesign/Q6_4_2_3.cpp
+        #        Recursion/AlgorithmDesign/Q6_4_2_2.cpp
+        #        Recursion/AlgorithmDesign/Q6_4_2_1.cpp
+        #        BTree/LinkBTree/BTree.cpp
+#        BTree/LinkBTree/BTree.h
+#        BTree/LinkBTree/TestBTree.cpp
+        #        Recursion/sumOfBit.cpp
+#        Recursion/fastPow.cpp
+#        Recursion/Iteration/Fibonacci.cpp
+        #        Recursion/minArr.cpp
+        #        Recursion/Hanoi.cpp
+        #        Test/Linerlist/qiujiaoji.cpp
+        #        LinearList/LabLinkList/LabLinkList.cpp
+#        LinearList/LabLinkList/LabLinkList.h
+#        LinearList/LabLinkList/mian.cpp
+#        LinearList/LabLinkList/Lab_LinkList.cpp
+#        LinearList/LabLinkList/anslist.cpp
+#        myQueue/Lab/Stack_Mimic_Queue.cpp
+#        myQueue/Lab/Queue_Mimic_Stack.cpp
+        #        myStack/IntergratedQuestion/lab1_2.cpp
+        #        Array/IntergratedQ/luoxuanshuzu.cpp
+        #        myString/IntegratedApplication/LeetCode/myStoi.cpp
+#        myString/IntegratedApplication/LeetCode/generateParenthesis.cpp
+#        myString/IntegratedApplication/LeetCode/strStr.cpp
+#        myString/IntegratedApplication/LeetCode/findSubString.cpp
+        #        myStack/IntergratedQuestion/Q2.cpp
+#        myString/PatternMatching/BF.cpp
+#        myString/PatternMatching/KMP.cpp
+#        myQueue/IntegratedApplication/LeetCode/ShortestSubArray.cpp
+#        myString/IntegratedApplication/Textbook/Q4_5_2_4.cpp
+        #        myString/LinkString/LinkString.cpp
+#        myString/LinkString/LinkString.h
+#        myStack/IntergratedQuestion/Q1.cpp
+        #        myString/SqString/SqString.cpp
+#        myString/SqString/SqString.h
+        #        myQueue/IntegratedApplication/Q3_4_2_4.cpp
+#        myQueue/IntegratedApplication/Q3_4_2_6.cpp
+#        myQueue/IntegratedApplication/Q3_4_2_6.cpp
+#        myQueue/IntegratedApplication/Q3_4_2_7.cpp
+#        myQueue/IntegratedApplication/Q3_4_2_8.cpp
+        #        myQueue/IntegratedApplication/Q3_4_2_1.cpp
+#        myQueue/IntegratedApplication/Q3_4_2_2.cpp
+#        myQueue/IntegratedApplication/Q3_4_2_3.cpp
+        #        myQueue/LinkQueue/LinkQueue.h
+#        myQueue/LinkQueue/LinkQueue.cpp
+#        myQueue/LinkQueue/main.cpp
+#        myQueue/IntegratedApplication/Maze.cpp
+        #        myQueue/SqQueue/SqQueue.cpp
+#        myQueue/SqQueue/main.cpp
+#        myQueue/CSQueue/main.cpp
+        #        myStack/SqStack/_main.cpp
+        #        myStack/SqQueue/_main.cpp
+#        myStack/LinkStack/LinkStack.h
+#        myStack/LinkStack/LinkStack.cpp
+#        myStack/LinkStack/_main.cpp
+
+#        myStack/_StackInSTL.cpp
+
+        #        LinearList/List.cpp
+        #        LinearList/CDLinkList/CDLinkList.h
+#        LinearList/Vector.cpp
+#         LinearList/CLinkList/约瑟夫问题.cpp
+#        LinearList/DLinkList/main.cpp
+#        LinearList/DLinkList/DLinkList.cpp
+#        LinearList/CLinkList/CLinkList.cpp
+#        LinearList/CLinkList/CLinkList.h
+ #       LinearList/SqList/SqList.cpp
+#        LinearList/SqList/SqList.h
+##       LinearList/SqList/main.cpp
+#        LinearList/LinkList/LinkList.h
+#        LinearList/LinkList/LinkList.cpp
+#        LinearList/LinkList/main.cpp
+
+
+)
