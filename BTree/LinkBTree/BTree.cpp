@@ -265,3 +265,20 @@ void BTree::ReversePreOrderSeq(BTree &bt, std::string s) {
     int i= 0;
     bt.root = ReversePreOrderSeq1(s,i);
 }
+
+BTNode* BTree::findSibling(struct BTNode* root, char x) {
+    if (root == NULL)
+        return NULL;
+
+    if (root->lchild != NULL && root->lchild->data == x)
+        return root->rchild;
+    else if (root->rchild != NULL && root->rchild->data == x)
+        return root->lchild;
+
+    struct BTNode* sibling = findSibling(root->lchild, x);
+    if (sibling != NULL)
+        return sibling;
+
+    sibling = findSibling(root->rchild, x);
+    return sibling;
+}

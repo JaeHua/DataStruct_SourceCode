@@ -53,6 +53,7 @@ public:
     string PreOrderSeq(BTNode*b);//先序遍历产生序列
     BTNode* ReversePreOrderSeq1(string s,int &i);//反序列
     void ReversePreOrderSeq(BTree&bt,string s);
+    BTNode* findSibling(struct BTNode* root, char x);//找到结点值为x的兄弟结点
     ~BTree()//自动析构
     {
         DestoryBTree(root);

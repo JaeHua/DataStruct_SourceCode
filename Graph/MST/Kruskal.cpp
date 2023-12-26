@@ -11,6 +11,7 @@ struct Edge
     int u;
     int v;
     int w;
+    int id;
 }edges[maxn];
 bool cmp(Edge a,Edge b)
 {
@@ -50,16 +51,16 @@ int kruskal(int n,int m)
 }
 int main() {
     int n, m;
-    cout << "Enter the number of nodes (n): ";
+//    cout << "Enter the number of nodes (n): ";
     cin >> n;
-    cout << "Enter the number of edges (m): ";
+//    cout << "Enter the number of edges (m): ";
     cin >> m;
 
     init(n);
 
-    cout << "Enter the edges in the format (u v w):" << endl;
+//    cout << "Enter the edges in the format (u v w):" << endl;
     for (int i = 0; i < m; i++) {
-        cin >> edges[i].u >> edges[i].v >> edges[i].w;
+        cin >>edges[i].id>> edges[i].u >> edges[i].v >> edges[i].w;
     }
 
     sort(edges, edges + m, cmp);
@@ -68,7 +69,7 @@ int main() {
     if (result == -1) {
         cout << "No MST exists." << endl;
     } else {
-        cout << "The weight of the minimum spanning tree is: " << result << endl;
+        cout << result << endl;
     }
 
     return 0;

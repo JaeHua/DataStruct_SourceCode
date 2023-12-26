@@ -4,7 +4,10 @@ project(Cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Cpp main.cpp
-#        Search/BinSearch.cpp
+#        Graph/lab/lab3.cpp
+        #        Graph/lab/lab1.cpp
+#        Graph/lab/lab2.cpp
+        #        Search/BinSearch.cpp
         #        Search/SeqSearch/SeqSearch.cpp
         #        Graph/graph/main.cpp
         #        Graph/ShorttestPath/floyed.cpp
@@ -14,7 +17,7 @@ add_executable(Cpp main.cpp
         #        Graph/graph/adjacencyList.cpp
 ##        Graph/graph/adjacencyList.h
 #        Graph/graph/main.cpp
-        Graph/homework/Q1.cpp
+#        Graph/homework/Q1.cpp
         #        MoNiTi/Third/Q2.cpp
         #        MoNiTi/Third/Q1.cpp
         #        MoNiTi/Second/Q1.cpp
