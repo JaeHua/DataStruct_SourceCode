@@ -4,7 +4,13 @@ project(Cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Cpp main.cpp
-#        Graph/lab/lab3.cpp
+        Search/BSTree/BSTree.cpp
+#        Search/BSTree/BSTree.h
+#        Search/BSTree/main.cpp
+        #        Search/HashTab/HashTab.cpp
+#        Search/homework/hash.cpp
+        #        Graph/lab/lab1.cpp
+        #        Graph/lab/lab3.cpp
         #        Graph/lab/lab1.cpp
 #        Graph/lab/lab2.cpp
         #        Search/BinSearch.cpp
