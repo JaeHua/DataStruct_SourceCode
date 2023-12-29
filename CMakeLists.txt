@@ -4,8 +4,17 @@ project(Cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Cpp main.cpp
-        Search/BSTree/BSTree.cpp
-#        Search/BSTree/BSTree.h
+#        SortAlgorithm/MergeSort/MergeSort.cpp
+        #        SortAlgorithm/SelectSort/HeapSort.cpp
+        #        SortAlgorithm/SelectSort/SelectSort.cpp
+        #        SortAlgorithm/ExchangeSort/BubbleSort.cpp
+#        SortAlgorithm/ExchangeSort/QuickSort.cpp
+        #        SortAlgorithm/InsertSort/BinInsert.cpp
+#        SortAlgorithm/InsertSort/ShellSort.cpp
+        #        SortAlgorithm/InsertSort/DirectInsert.cpp
+        #        Search/BSTree/BSTree.cpp
+#        Search/HashTab/LinkHashTable/LHashTab.cpp
+        #        Search/BSTree/BSTree.h
 #        Search/BSTree/main.cpp
         #        Search/HashTab/HashTab.cpp
 #        Search/homework/hash.cpp
