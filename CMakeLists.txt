@@ -4,7 +4,12 @@ project(Cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Cpp main.cpp
-#        SortAlgorithm/MergeSort/MergeSort.cpp
+##        Graph/MST/Kruskal.cpp
+#        Graph/ShorttestPath/dijkstra.cpp
+#        Graph/ShorttestPath/dijkstraNew.cpp
+#        Graph/ShorttestPath/floyedNew.cpp
+        #        myStack/IntergratedQuestion/lab1_2.cpp
+        #        SortAlgorithm/MergeSort/MergeSort.cpp
         #        SortAlgorithm/SelectSort/HeapSort.cpp
         #        SortAlgorithm/SelectSort/SelectSort.cpp
         #        SortAlgorithm/ExchangeSort/BubbleSort.cpp

@@ -21,7 +21,7 @@ bool cmp(Edge a,Edge b)
 void init(int n)
 {
     //对父亲结点数组进行初始化
-    for(int i = 1;i <= n;i++ )
+    for(int i = 0;i < n;i++ )
         fa[i] = i;
 }
 int find(int x)
@@ -60,7 +60,7 @@ int main() {
 
 //    cout << "Enter the edges in the format (u v w):" << endl;
     for (int i = 0; i < m; i++) {
-        cin >>edges[i].id>> edges[i].u >> edges[i].v >> edges[i].w;
+        cin >> edges[i].u >> edges[i].v >> edges[i].w;
     }
 
     sort(edges, edges + m, cmp);

@@ -132,6 +132,7 @@ int main() {
     string post = transs(ex);
     int ans = 0;
     ans = cacl(post);
+    cout<<post<<endl;
     cout<<ans<<endl;
     return 0;
 }
