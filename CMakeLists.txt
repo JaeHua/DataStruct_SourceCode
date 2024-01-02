@@ -4,7 +4,8 @@ project(Cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Cpp main.cpp
-        LabPattern/HeapSort.cpp
+#        LabPattern/HeapSort.cpp
+#        LabPattern/VectorToStackAndQueue.cpp
         #        LabPattern/LinkList.cpp
         #        LabPattern/kmp.cpp
 #        LabPattern/PostExpression.cpp
