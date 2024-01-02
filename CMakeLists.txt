@@ -4,7 +4,22 @@ project(Cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Cpp main.cpp
-##        Graph/MST/Kruskal.cpp
+        LabPattern/HeapSort.cpp
+        #        LabPattern/LinkList.cpp
+        #        LabPattern/kmp.cpp
+#        LabPattern/PostExpression.cpp
+        #        LabPattern/Prim.cpp
+#        LabPattern/QuickSort.cpp
+#        LabPattern/MergeSort.cpp
+#        LabPattern/StrToNum.cpp
+#        LabPattern/Kruskal.cpp
+#        LabPattern/TopoSort.cpp
+#        LabPattern/dijkstra.cpp
+#        LabPattern/floyed.cpp
+#        LabPattern/graph.cpp
+#        LabPattern/BTree.cpp
+#        LabPattern/PreInOrderToPostOrder.cpp
+        ##        Graph/MST/Kruskal.cpp
 #        Graph/ShorttestPath/dijkstra.cpp
 #        Graph/ShorttestPath/dijkstraNew.cpp
 #        Graph/ShorttestPath/floyedNew.cpp
