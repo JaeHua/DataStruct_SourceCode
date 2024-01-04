@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/Array/IntergratedQ/luoxuanshuzu.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/BTree/LinkBTree/BTree.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/BTree/LinkBTree/BTree.h" charset="GBK" />
     <file url="file://$PROJECT_DIR$/BTree/LinkBTree/TestBTree.cpp" charset="GBK" />

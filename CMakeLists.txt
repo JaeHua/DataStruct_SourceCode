@@ -4,7 +4,13 @@ project(Cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Cpp main.cpp
-#        LabPattern/HeapSort.cpp
+        SortAlgorithm/SelectSort/SelectSort.cpp
+        #        SortAlgorithm/MergeSort/MergeSort.cpp
+        #        SortAlgorithm/ExchangeSort/QucikSort.cpp
+        #        SortAlgorithm/ExchangeSort/BubbleSort.cpp
+        #        SortAlgorithm/InsertSort/DirectInsert.cpp
+        #        SortAlgorithm/ExchangeSort/BubbleSort.cpp
+        #        LabPattern/HeapSort.cpp
 #        LabPattern/VectorToStackAndQueue.cpp
         #        LabPattern/LinkList.cpp
         #        LabPattern/kmp.cpp

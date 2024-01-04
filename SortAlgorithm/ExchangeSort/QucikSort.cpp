@@ -1,20 +1,20 @@
 //
-// Created by jjh on 2023/12/29.
+// Created by jjh on 2024/1/4.
 //
-
+//
 #include <iostream>
 #include <vector>
 using namespace std;
-int Partition(vector<int>&b,int left,int right)
+int getMid(vector<int>&v,int left,int right)
 {
-    int pivot = b[left];
-    while (left<right)
+    int pivot = v[left];
+    while(left<right)
     {
-        while (b[right]>=pivot && left < right)right--;
-        b[left] = b[right];
-        while (b[left]<=pivot && left < right)left++;
-        b[right] = b[left];
-    b[left] = pivot;
+        while(v[right]>=pivot&&left<right)right--;
+        v[left] = v[right];
+        while(v[left]<=pivot&&left<right)left++;
+        v[right] = v[left];
+        v[left] = pivot;
     }
     return left;
 }
@@ -22,7 +22,7 @@ void QuickSort(vector<int>&v,int left,int right)
 {
     if(left<right)
     {
-        int mid = Partition(v,left,right);
+        int mid = getMid(v,left,right);
         QuickSort(v,left,mid-1);
         QuickSort(v,mid+1,right);
     }

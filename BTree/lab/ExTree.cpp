@@ -204,7 +204,7 @@ int main()
     cin>>str;
     str = trans(str);
     build(str,bt);
-//    cout<<bt->data<<endl;
+//  cout<<bt->data<<endl;
     preOrder(bt);
     cout<<'\n';
     inOrder(bt);

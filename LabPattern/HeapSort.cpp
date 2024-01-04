@@ -35,7 +35,7 @@ void shiftup(int tr[],int j)
 }
 void heapsort(int tr[])
 {
-    for(int i = (n )/2 - 1; i >= 0; i--)
+    for(int i =  n/2 - 1; i >= 0; i--)
         shiftdown(tr,i,n-1);
     for(int i = n-1;i>0;i--)
     {

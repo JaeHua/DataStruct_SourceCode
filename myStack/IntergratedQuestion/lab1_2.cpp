@@ -2,9 +2,7 @@
 #include <iostream>
 #include <stack>
 #include <string>
-
 using namespace std;
-
 string transs(string exp) {
     stack<char> sym;
     string postexp = "";

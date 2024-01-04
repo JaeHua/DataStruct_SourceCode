@@ -36,11 +36,12 @@ bool kmp(){
 }
 int main()
 {
-
         cin >> s >> t;
-        if (kmp()) {
+        if (kmp())
+        {
             printf("%s is of %s\t", t.c_str(), s.c_str());
-        } else printf("%s is not of %s\t", t.c_str(), s.c_str());
+        }
+        else printf("%s is not of %s\t", t.c_str(), s.c_str());
         cout<<endl;
 //         int it = s.find(t);
 //         if(it == string::npos)
