@@ -4,7 +4,8 @@ project(Cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(Cpp main.cpp
-        SortAlgorithm/SelectSort/SelectSort.cpp
+#        SortAlgorithm/SelectSort/SelectSort.cpp
+        SortAlgorithm/Homework/TopK.cpp
         #        SortAlgorithm/MergeSort/MergeSort.cpp
         #        SortAlgorithm/ExchangeSort/QucikSort.cpp
         #        SortAlgorithm/ExchangeSort/BubbleSort.cpp
